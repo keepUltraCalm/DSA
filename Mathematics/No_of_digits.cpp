@@ -40,3 +40,9 @@ int main() {
 
 	return 0;
 }
+
+//INPUT
+//7
+
+//OUTPUT
+//Yes
