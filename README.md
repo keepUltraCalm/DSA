@@ -4,4 +4,5 @@ Resource for DSA questions and concepts for interviews for product-based compani
 Prerequisite:
 
 1. Basics of C++
-2. Familier/Idea about C++ STL.
+2. Familier with C++ STL
+3. Basics of every Data Strucure.
