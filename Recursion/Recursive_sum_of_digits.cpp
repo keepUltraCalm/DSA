@@ -12,8 +12,10 @@ using namespace std;
 //if the number is 0 or becomes 0..return 0 from that function call
 
 int sum_of_digits(int n) {
-	if (n == 0) {
-		return 0;
+	if (n <=9) {
+		return n;
+		//rather than writing n==0...return 0..we can optimmize it
+		//by the above code
 	}
 	else {
 		return sum_of_digits(n / 10) + n % 10;
@@ -61,5 +63,5 @@ int main() {
 
 //theta(d)
 //d+1 recursive calls in function call stack due to call for 0
-//of course iterative sol is better..becaues of O(1) space..
+//of course iterative sol is better..because of O(1) space..
 //this ques was to explain recursion clearly
