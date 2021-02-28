@@ -61,3 +61,5 @@ int main() {
 
 //theta(d)
 //d+1 recursive calls in function call stack due to call for 0
+//of course iterative sol is better..becaues of O(1) space..
+//this ques was to explain recursion clearly
