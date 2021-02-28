@@ -87,6 +87,11 @@ int main() {
 		for (int i = 0; i < n; i++) {
 			if ((int)(counter & (1 << i)) != 0)
 				//explained the logic above
+				//now why i have explicitly mentioned int??
+				//because if gives me a bool..i want an integer
+				//the right side 0 is not a bool 0..it is an int 0
+				//don't get confused
+				//it makes everyhing clear
 				cout << s[i];
 		}
 		cout << "\n";
