@@ -127,7 +127,8 @@ int main() {
 
 
 //Time complexity
-//O(2^n)
+//O(2^n)..why 2..because we got 2 choices
+//n-> length of string
 
 //Space complexity
 
