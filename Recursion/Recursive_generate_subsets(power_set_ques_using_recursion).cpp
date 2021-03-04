@@ -1,10 +1,10 @@
 //Q..
 
-//Generate subsets or subsequences of given string
+//Generate subsets of given string
 //now it is a set..so we have unique elements
 
 //OK..so we have already done this ques before using bits..the power set ques
-//Now, we know what a subset is..a continuous part substring from parent
+//Now, we know what a subset is..a substring from parent
 //But what is subsequence??
 //A subsequence is achieved by removing characters from subset while
 //maintaining the original order.
@@ -38,7 +38,7 @@
 
             ok, now how will we solve this problem
 
-     Now, if you follow me..recursion will be super easy!!😍
+     Now, if you follow me..recursion will be super easy!!😎
 
      what is the first step...understand the pattern..draw a tree
      now,what's the next step...
