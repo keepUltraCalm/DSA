@@ -3,7 +3,9 @@
 // and j>i such that arr[j]-arr[i] is maximum
 
 //OR the problem can be called as
-//BUY AND SELL STOCKS I
+
+//Leetcode BEST TIMe TO BUY AND SELL STOCKS I
+
 //You can only buy and sell stocks once.
 
 //Brute-force approach
