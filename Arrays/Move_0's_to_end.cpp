@@ -5,6 +5,7 @@
 Find a zero..
 traverse its right, find a non-zero
 and swap both
+Time complexity is clearly 0(n^2)
 */
 
 //Optimal Sol
