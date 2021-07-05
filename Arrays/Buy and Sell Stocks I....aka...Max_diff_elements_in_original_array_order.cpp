@@ -2,10 +2,25 @@
 //   Array cannot be sorted..i.e., ans should be acc to original array
 // and j>i such that arr[j]-arr[i] is maximum
 
+//OR the problem can be called as
+//BUY AND SELL STOCKS I
+//You can only buy and sell stocks once.
+
 //Brute-force approach
 /*
 Generate all pairs of arr[i],arr[j], j>i, using n^2 loop
 calculate which one gives you maximum value
+Time : O(n^2)
+Space : O(1)
+*/
+
+//Better
+/*
+Maintain an array of same size. Start from right, go to left and store the 
+maximum element that far.
+Run another loop for original array, calculate diff and update max variable
+Time : O(n) -> two traversals
+Space : O(n)
 */
 
 //Optimal sol
