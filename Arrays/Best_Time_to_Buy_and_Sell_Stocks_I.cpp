@@ -2,6 +2,8 @@
 //   Array cannot be sorted..i.e., ans should be acc to original array
 // and j>i such that arr[j]-arr[i] is maximum
 
+//Buy and Sell Stocks I....aka...Max_diff_elements_in_original_array_order
+
 //OR the problem can be called as
 
 //Leetcode BEST TIMe TO BUY AND SELL STOCKS I
