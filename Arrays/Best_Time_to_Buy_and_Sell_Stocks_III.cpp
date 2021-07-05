@@ -1,7 +1,7 @@
 //Leetcode...BEST TIME TO BUY AND SELL STOCK III
 
 //Q. Now comes a bit hard q
-//We can use exactly 2 transactions..nothing less..nothing more
+//We can use atmost 2 transactions..1 in case answer is extreme elements
 /*
 So, how to solve this..
 well just observe one stuff
@@ -114,7 +114,8 @@ int main() {
 
 
 //Time : O(n)...3 traversal needed
-//Space: O(3*n)..3 arrays used
+//Space: O(2*n)..2 arrays used
+//can ignore the dp array
 
 /*
 O/P
