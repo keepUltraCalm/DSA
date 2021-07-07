@@ -13,7 +13,8 @@ Check all O(N^2)
 
 //Optimal sol
 /*
-We will use sliding-window technique
+We will use sliding-window technique😎
+Maintain a sliding-window (subarray) and remove from left, add on its right
 */
 #include <bits/stdc++.h>
 using namespace std;
