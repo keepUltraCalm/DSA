@@ -15,3 +15,5 @@ This folder (Arrays) contains questions on the following topics:
 * DP-(1-D Arrays)
 
 * Best time to Buy & Sell Stocks
+
+* Boyer Moore's Voting Algorithm
