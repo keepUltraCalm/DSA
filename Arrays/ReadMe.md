@@ -12,10 +12,12 @@ This folder (Arrays) contains questions on the following topics:
 
 * Slow-Fast Pointers
 
-* DP-(1-D Arrays)
+* DP-Basics-(1-D Arrays)
 
 * Best time to Buy & Sell Stocks
 
 * Boyer Moore's Voting Algorithm
 
 * Kadane's Algorithm
+
+* Heap-Basics (Priority-Queue)
