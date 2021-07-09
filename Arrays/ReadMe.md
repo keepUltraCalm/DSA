@@ -21,3 +21,7 @@ This folder (Arrays) contains questions on the following topics:
 * Kadane's Algorithm
 
 * Heap-Basics (Priority-Queue)
+
+* Dutch-National Flag Algorithm (3-Pointers)
+
+* Counting Sort
