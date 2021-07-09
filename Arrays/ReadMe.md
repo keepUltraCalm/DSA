@@ -17,3 +17,5 @@ This folder (Arrays) contains questions on the following topics:
 * Best time to Buy & Sell Stocks
 
 * Boyer Moore's Voting Algorithm
+
+* Kadane's Algorithm
