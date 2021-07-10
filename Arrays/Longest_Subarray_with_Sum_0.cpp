@@ -1,5 +1,5 @@
 /*
-Leetcode : LARGEST SUBARRAY WITH SUM 0
+Leetcode : LONGEST SUBARRAY WITH SUM 0
 
 Brute:
 O(n^2) check for all
