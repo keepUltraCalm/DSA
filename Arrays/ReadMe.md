@@ -8,7 +8,7 @@ This folder (Arrays) contains questions on the following topics:
 
 * 2-Pointers Algorithm
  
-* Sliding Window Technique
+* Sliding-Window Technique
 
 * Slow-Fast Pointers
 
