@@ -44,6 +44,10 @@ This is the intution..
 if it occurs between two different..then it will occur later again
 if it occurs together..imagine..then count will never become 0
 if it is mixture of both..we will see it again
+
+if in Q it is given majority element might not exist...then you 
+need to run the final loop to check if the element you found
+was actually occuring > n/2 times
 */
 
 #include <bits/stdc++.h>
