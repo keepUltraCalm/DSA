@@ -48,6 +48,12 @@ if it is mixture of both..we will see it again
 if in Q it is given majority element might not exist...then you 
 need to run the final loop to check if the element you found
 was actually occuring > n/2 times
+
+suppose your array is like x1 x2 x2 x1 x3......and so on right side
+So x1 x2    this shows that if your elements are divided
+   x2 x1    in pairs and every pair elements are distinct
+   x3 x1    then you cannot have any element n/2 times..
+            which means ans is available on the right side
 */
 
 #include <bits/stdc++.h>
