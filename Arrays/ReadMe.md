@@ -25,3 +25,5 @@ This folder (Arrays) contains questions on the following topics:
 * Dutch-National Flag Algorithm (3-Pointers)
 
 * Counting Sort
+
+* Prefix Sum
