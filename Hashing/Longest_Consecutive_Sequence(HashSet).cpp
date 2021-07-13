@@ -1,4 +1,9 @@
 //LONGEST CONSECUTIVE SEQUENCE
+
+/*
+Use hashset for 1 element
+For key,value pair..use unordered_map
+*/
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
