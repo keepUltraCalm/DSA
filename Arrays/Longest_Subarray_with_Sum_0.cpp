@@ -13,7 +13,7 @@ if yes update
 OPTIMAL Sol:
 Now, to understand this approach,
 
-s= sum from starting index 0 to i
+s= sum from starting index 0(i) to j
 s is also sum of entire array(just taking this example)
 now ind j till n-1(n is size) will give you 0
 that's the logic!!
