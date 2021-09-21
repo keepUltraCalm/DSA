@@ -63,3 +63,16 @@ int main()
 
 	return 0;
 }
+
+
+/*
+hey 10
+geek 30
+hey 10
+geek 30
+Found at 30
+1
+0
+Not empty
+Yes
+*/
