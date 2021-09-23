@@ -95,7 +95,7 @@ int main()
 		cout << "G2";
 	}
 	cout << '\n';
-	//lexicographic check only happens with equal lengths
+	//lexicographic check always happens..string length doesn't matter
 
 	//last way of traversing
 	string zz = "fgduh";
