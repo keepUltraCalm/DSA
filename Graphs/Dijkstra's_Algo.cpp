@@ -17,19 +17,21 @@ void dijkstra(vector<pair<int, int>> adj[], int size, int source) {
 
     //dj starts😎
     priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
-    vector<int> dis(size, INT_MAX);
+    //vector<pair<int, bool>> dis(size, {INT_MAX, false}); or you can create a seperate array
+    vector <int> dis(size, INT_MAX);
+    vector<bool> check(size, false);
     dis[source] = 0;
     pq.push(make_pair(0, source));
     while (!pq.empty()) {
-        int dist = pq.top().first;
         int prev = pq.top().second;
         pq.pop();
+        check[prev] = true;
 
         for (auto it = adj[prev].begin(); it != adj[prev].end(); it++) {
             int next = it->first;
-            int nextDist = it->second;
-            if (dis[next] > dis[prev] + nextDist) {
-                dis[next] = dis[prev] + nextDist;
+            int weight = it->second;
+            if (!check[next] && dis[next] > dis[prev] + weight) {
+                dis[next] = dis[prev] + weight;
                 pq.push(make_pair(dis[next], next));
             }
         }
