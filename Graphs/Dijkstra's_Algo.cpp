@@ -56,7 +56,7 @@ int main() {
     push_item(adj, 2, 4, 5);
     push_item(adj, 3, 4, 8);
 
-    int source = 1;
+    int source = 0;
 
     dijkstra(adj, V, source);
 
@@ -91,6 +91,10 @@ int main() {
                 \|/      |
                  2-------4
                      5
+      
+      Time & Space:
+      Time: (V+E)logV (V is vertices no., E=edges no.) because of adjacency list
+      Space: O(V) array + O(V) pr_q
       
     */
     return 0;
