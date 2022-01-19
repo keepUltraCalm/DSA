@@ -20,23 +20,20 @@ void dijkstra(vector<pair<int, int>> adj[], int size, int source) {
     vector<int> dis(size, INT_MAX);
     dis[source] = 0;
     pq.push(make_pair(0, source));
-    while ( !pq.empty() ) {
+    while (!pq.empty()) {
         int dist = pq.top().first;
         int prev = pq.top().second;
         pq.pop();
 
-        vector<pair<int, int> >::iterator it;
-        for ( it = adj[prev].begin() ; it != adj[prev].end() ; it++) {
+        for (auto it = adj[prev].begin(); it != adj[prev].end(); it++) {
             int next = it->first;
             int nextDist = it->second;
-            if ( dis[next] > dis[prev] + nextDist) {
+            if (dis[next] > dis[prev] + nextDist) {
                 dis[next] = dis[prev] + nextDist;
                 pq.push(make_pair(dis[next], next));
             }
         }
-
     }
-
     cout << "The shortest distances of all nodes from source " << source << " are: \n";
     for (int i = 0 ; i < size ; i++) cout << dis[i] << " ";
     cout << "\n";
@@ -64,7 +61,6 @@ int main() {
     dijkstra(adj, V, source);
 
 //you can write dijkstra's in main function to avoid complications
-
     // for (auto x : adj) {
     //     for (auto y : x)
     //         cout << y.first << "," << y.second << " ";
