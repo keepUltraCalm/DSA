@@ -96,7 +96,7 @@ int main() {
       
       Time & Space:
       Time: (V+E)logV (V is vertices no., E=edges no.) because of adjacency list
-      Space: O(V) array + O(V) pr_q
+      Space: O(V) array..2 array + O(V) pr_q
       
     */
     return 0;
