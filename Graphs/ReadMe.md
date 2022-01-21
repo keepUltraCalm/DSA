@@ -22,15 +22,14 @@ If there is an unweighted graph..cyclic/ascyclic/directed/undirected doesn't mat
 I say find shortest path between this to this...
 ## use BFS
 
-*If weighted...then comes
- ## DIJKSTRA'S ALGO..
-*If you have +ve weighted graph..cyclic/ascyclic/directed/undirected doesn't matter...use this
-*But doesn't work with negative-weights and negative-cycles
+If weighted...then comes
+## DIJKSTRA'S ALGO
+If you have +ve weighted graph..cyclic/ascyclic/directed/undirected doesn't matter...use this  
+But doesn't work with negative-weights and negative-cycles
 
-*If graph is +ve weighted, directed, acyclic to find shortest path..we can do better than dijkstra's
-## use TOPOLOGICAL SORT..
+If graph is +ve weighted, directed, acyclic to find shortest path..we can do better than dijkstra's
+## use TOPOLOGICAL SORT
 this also doesn't work with -ve weights
-
 
 now, what to do if the graph
 ## has -ve weights and
@@ -39,7 +38,7 @@ now, what to do if the graph
 we use BELLMAN FORD ALGO
 
 ## undirected(also a form of cyclic)..
-graph cannot be solved,the Algo will detect -ve weight cycle,i.e.,-ve weight b/w two,
+graph cannot be solved,the Algo will detect -ve weight cycle,i.e.,-ve weight b/w two,  
 as it will be moving back and forth on that -ve weight..and it will be infinite loop
 
 ## directed n cyclic...Algo may or may not work..
@@ -50,5 +49,6 @@ if the cycle weight sum is not -ve
 then doesn't work,i.e.,graph cannot be solved..detects the -ve weight cycle
 
 ## Now, how do we check for -ve weight cycle..
-after n-1 times..
+after n-1 times..  
 relax all edges once more..if value changes..you know there is -ve weight-cycle
+
