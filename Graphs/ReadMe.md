@@ -52,3 +52,5 @@ then doesn't work,i.e.,graph cannot be solved..detects the -ve weight cycle
 after n-1 times..  
 relax all edges once more..if value changes..you know there is -ve weight-cycle
 
+## PRIM'S ALGO requirements:
+Connected...Undirected...Weighted(+ve or -ve doesn't matter)
