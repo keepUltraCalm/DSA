@@ -18,8 +18,8 @@
 
 ## When to use which Algo??
 
-*If there is an unweighted graph..cyclic/ascyclic/directed/undirected doesn't matter
-*I say find shortest path between this to this...
+If there is an unweighted graph..cyclic/ascyclic/directed/undirected doesn't matter  
+I say find shortest path between this to this...
 ## use BFS
 
 *If weighted...then comes
