@@ -19,14 +19,13 @@
 ## When to use which Algo??
 
 *If there is an unweighted graph..cyclic/ascyclic/directed/undirected doesn't matter
- I say find shortest path between this to this...
+*I say find shortest path between this to this...
 ## use BFS
 
-*If weighted...
- then comes
+*If weighted...then comes
  ## DIJKSTRA'S ALGO..
 *If you have +ve weighted graph..cyclic/ascyclic/directed/undirected doesn't matter...use this
- But doesn't work with negative-weights and negative-cycles
+*But doesn't work with negative-weights and negative-cycles
 
 *If graph is +ve weighted, directed, acyclic to find shortest path..we can do better than dijkstra's
 ## use TOPOLOGICAL SORT..
