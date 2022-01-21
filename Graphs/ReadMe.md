@@ -1,4 +1,4 @@
-GRAPHS TOPICS:
+## GRAPHS TOPICS:
 
 * Graph Creation (Adjacency List Implementation)
 * Creating a Directed/Undirected Graph
@@ -14,9 +14,9 @@ GRAPHS TOPICS:
 * Bellman Ford Algo
 * Prim's Algo - MST
 * Clone a Graph
-* When to use which Algo??
 
 
+## When to use which Algo??
 
 if there is an unweighted graph..cyclic/ascyclic/directed/undirected doesn't matter
 i say find shortest path between this to this...
