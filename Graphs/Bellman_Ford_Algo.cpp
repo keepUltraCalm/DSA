@@ -60,9 +60,10 @@ int main() {
     int V = 4; //v is no. of vertices
     vector<Node> adj;
     push_item(adj, 0, 1, 1);
-    push_item(adj, 0, 2, 4);
     push_item(adj, 1, 2, -3);
     push_item(adj, 1, 3, 2);
+    push_item(adj, 2, 0, 1);//change this weight to see changes..if weight-cycle is 0..still algo works
+    //order matters..first node connected from source should be relaxed..so add in vector acc.ly
     push_item(adj, 2, 3, 3);
 
     int source = 0;
@@ -80,12 +81,12 @@ Graph
           ↗   ↓   ↘
          0    ↓-3   3
           ↘   ↓    ↗
-           4 ↘ 2 ↗3
-           
+           1 ↘ 2 ↗3
+
            So the time complexity: O((V-1)*E)...relaxing V-1 times..and for E edges
            space O(V) -> distance array
            Dijkstra's is way better..but this algo helps in detecting -ve weight cycles
-           
+
            In case of complete graph.. number of edges goes till n(n-1)
            so this will become a cubic algo
 
