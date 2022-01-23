@@ -13,7 +13,6 @@
 * Dijkstra's Algo
 * Bellman Ford Algo
 * Prim's Algo - MST
-* Clone a Graph
 
 
 ## When to use which Algo??
