@@ -19,4 +19,6 @@ int main() {
 			print(arr, m, n);
 			return 0;
 		}
+	}
+}
 		//multi dim array c++
