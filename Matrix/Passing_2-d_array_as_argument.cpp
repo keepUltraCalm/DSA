@@ -16,9 +16,9 @@ int main() {
 		arr[i] = new int[n];
 		for (int j = 0; j < n; j++) {
 			arr[i][j] = j;
+		}
+	}
 			print(arr, m, n);
 			return 0;
 		}
-	}
-}
 		//multi dim array c++
